@@ -161,7 +161,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const money=n=>'₦'+Number(n||0).toLocaleString();
 const dt=x=>x&&x.toDate?x.toDate().toLocaleDateString():'';
 const RV=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add('in')),{threshold:.12});
-let S={name:'Oscar Daxton Academy',tagline:'School Portal',classes:'Creche,Nursery 1,Nursery 2,Primary 1,Primary 2,Primary 3,Primary 4,Primary 5,Primary 6,JSS 1,JSS 2,JSS 3,SS 1,SS 2,SS 3,ND 1,ND 2,HND 1,HND 2,100 Level,200 Level,300 Level,400 Level,Postgraduate,Short course'},P=null,isA=false,FEES={},RC={};RC={};
+let S={name:'Oscar Daxton Computer 🖥️ Academy',tagline:'School Portal',classes:'Creche,Nursery 1,Nursery 2,Primary 1,Primary 2,Primary 3,Primary 4,Primary 5,Primary 6,JSS 1,JSS 2,JSS 3,SS 1,SS 2,SS 3,ND 1,ND 2,HND 1,HND 2,100 Level,200 Level,300 Level,400 Level,Postgraduate,Short course'},P=null,isA=false,FEES={},RC={};RC={};
 function show(id){document.querySelectorAll('.pg').forEach(e=>e.classList.add('h'));$(id).classList.remove('h');window.scrollTo(0,0)}
 function applyS(){
  document.documentElement.style.setProperty('--a',S.accent||'#1e40af');
